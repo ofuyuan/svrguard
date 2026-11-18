@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/35017243/README.md)
 # SvrGuard
 
 **Intrusion detection and auto-blocking for SSH brute force, web scans and suspicious programs**
@@ -16,7 +15,7 @@ Built for freelancers, small teams and NAS owners looking after several machines
 Three layers of protection guard your host from three angles: analyzing system logs, checking for suspicious programs, and watching for resource anomalies.
 
 - **Layer 1: Analyzing system logs** — It analyses your web and SSH logs and writes attacking sources into the system firewall. Rules come built in, no regexes to write; every block shows which rule fired and which log lines.
-- **Layer 2: Checking for suspicious programs** — Every check looks for what intruders tend to leave behind: backdoors that start at boot, programs running from temp or hidden directories, a tampered preload library, a password login that succeeds after repeated failures, the host connecting out to a mining pool. When it finds one it sends you an alert, and you decide what to do.
+- **Layer 2: Checking for suspicious programs** — Every check looks for what intruders tend to leave behind: unknown programs set to start at boot, programs running from temp or hidden directories, a tampered preload library, a password login that succeeds after repeated failures, the host connecting out to a mining pool. When it finds one it sends you an alert, and you decide what to do.
 - **Layer 3: Watching for resource anomalies** — It keeps watching CPU, memory and disk. If the machine is quietly mining or filling its disk, you are alerted once a threshold is crossed, through the same channel as attack alerts.
 
 ## Install
