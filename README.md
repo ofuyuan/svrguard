@@ -38,7 +38,6 @@ This one line is for Linux and macOS (Apple Silicon). On a Synology NAS, install
 
 - **Rules come built in** — no regexes to maintain; once something is judged an attack it goes into the system firewall, even on hosts with no internet access.
 - **Every block keeps its evidence** — you see which rule fired and which log lines; on a false positive you can unblock or whitelist it yourself.
-- **It tells you when a block did not take effect** — if the firewall rejects it the console says so, and repeated failures send an email. Nothing fails quietly.
 - **Your logs stay on your host** — analysis happens on the machine; after joining Hub only the few lines judged to be an attack travel as evidence. It does not read your site's content or track your visitors, and its connection to Hub is always opened by the host itself.
 
 ## Questions and feedback
